@@ -1,5 +1,10 @@
 fastapi[all]
-pydantic
+numpy
+requests
 joblib
-fastapi
 scikit-learn
+imbalanced-learn
+streamlit
+dtale
+datashader
+pyfume
