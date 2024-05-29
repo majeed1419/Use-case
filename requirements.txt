@@ -1,7 +1,5 @@
 fastapi[all]
-requests
+pydantic
 joblib
-numpy
-seaborn
-sklearn
-matplotlib
+fastapi
+scikit-learn
