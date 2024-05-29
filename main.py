@@ -12,8 +12,8 @@ def create_item(item: dict):
 
 
 import joblib
-model = joblib.load('Models/knn_model.joblib')
-scaler = joblib.load('Models/scaler.joblib')          
+model = joblib.load('knn_model.joblib')
+scaler = joblib.load('scaler.joblib')          
 
 from pydantic import BaseModel
 # Define a Pydantic model for input data validation
